@@ -1,0 +1,91 @@
+.card-dashboard {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 3px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+}
+.card-stats .title {
+    margin: 0;
+}
+.card-stats .card-header {
+    float: left;
+    text-align: center;
+}
+.card-dashboard .card-header {
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #999999;
+}
+
+.card-stats .card-header i {
+    font-size: 36px;
+    line-height: 56px;
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+}
+.card-stats .card-content {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.card-dashboard .card-content {
+    padding: 15px 40px !important;
+}
+.card-dashboard .card-content .category {
+    margin-bottom: 0;
+}
+.card-stats .title {
+    margin: 0;
+}
+
+.card-dashboard .title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.title-table{
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 3px 2px rgba(0,0,0,.7);
+}
+
+.card-dashboard .card-footer {
+    margin: 0 20px 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}
+.card-dashboard .card-footer .stats {
+    line-height: 22px;
+    color: #999999;
+    font-size: 12px;
+}
+.card-dashboard .card-footer div {
+    display: inline-block;
+}
+.card-dashboard .card-footer .stats .material-icons {
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+}
+.card-dashboard .card-header .category {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.card-dashboard .table {
+    margin-bottom: 0;
+}
+
+.input-field .prefix {
+    color: #f5f5f5 !important;
+}

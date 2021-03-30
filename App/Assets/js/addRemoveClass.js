@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $("#footer").removeClass("fixed-footer");
+    $("#two").click(function(event){
+        $("#footer").addClass("fixed-footer");
+    });
+    $("#one").click(function(event){
+        $("#footer").removeClass("fixed-footer");
+    });
+});

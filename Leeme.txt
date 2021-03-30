@@ -1,0 +1,20 @@
+Nota: Instalar en sus equipos la ultima versión de Git y Composer (este sera usado en el transcuro de la aplicación)
+
+Comandos Git:
+
+git -> Muestra los comandos de git
+git init -> Inicia un nuevo repositorio (Indica que estan usuando git en el proyecto)
+git add <file.extension> -> Agrega archivos del working directory (local) al staying area (indice) (area intermedia entre el area de trabajo y el repositorio de git)
+git rm <file.extension> -> Elimina archivos del staying area (indice)
+git status -> Muestra el estado de los archivos (si ha sido modificado o existe uno nuevo, etc)
+git commit -> Crea un snapshot (nueva version) en el repositorio iniciado. [Cada vez que se crea una modificación o se completa un modulo, deben crear un commit para indicar la nueva version]
+--- Cuando crean un commit por primera vez y estamos trabajando varios desarrolladores, se debe especificar que desarrollador realizo un cambio (commit), al hacerlo por primera vez, deben crear el usuario con el siguiente comando.
+git config --global user.email "correo@ejemplo.com"
+git config --global user.name "Nombre Apellido"
+git checkout -- <file.extension> -> Revierte los cambios de un archivo modificado
+git diff -> Muestra las diferencias entre el archivo inicial (de un commit) y las nuevas modificaciones
+git push -> Carga los archivos de un repositorio local a uno remoto (a la cuenta de GitHub)
+git pull -> Agrega los cambios creados por otros desarrolladores (repositorio remoto) al repositorio local
+git clone -> Clona o crea una copia desde el repositorio remoto al equipo para empezar a trabajar.
+git branch -> Crea una nueva rama de desarrollo. "Master" = Rama actual.
+git log -> Muestra los commits realizados en el proyecto
